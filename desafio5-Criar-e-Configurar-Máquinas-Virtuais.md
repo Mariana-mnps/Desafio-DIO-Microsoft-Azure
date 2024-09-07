@@ -2,7 +2,7 @@
 
 ### Passo 1: Acessar o Portal Azure
 
-   - Abra o navegador e vá para [portal.azure.com](https://portal.azure.com).
+   - Abra o navegador e vá para portal azure.
   
 ### Passo 2: Criar uma Nova Máquina Virtual
 
