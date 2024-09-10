@@ -1,0 +1,90 @@
+# **Segurança e Identidade na Azure** 
+## **Gerenciamento de Recursos com Microsoft Entra ID**
+
+### **Passo 1: Configurar Microsoft Entra ID**
+
+1. **Acessar o Portal Microsoft Entra**
+   - Acesse e faça login com suas credenciais.
+
+2. **Navegar para Microsoft Entra ID**
+   - No menu à esquerda, selecione “Microsoft Entra ID” (ou “Azure Active Directory” em algumas versões).
+
+3. **Adicionar Usuários e Grupos**
+   - Vá para “Usuários” e clique em “+ Novo usuário” para adicionar usuários.
+   - Vá para “Grupos” e clique em “+ Novo grupo” para criar grupos e gerenciar permissões de acesso.
+
+4. **Configurar Políticas de Acesso**
+   - Acesse “Segurança” e selecione “Políticas de Acesso Condicional” para criar e gerenciar políticas que controlam como e quando os usuários podem acessar recursos.
+
+5. **Gerenciar Aplicações**
+   - Vá para “Aplicativos empresariais” e adicione novos aplicativos para gerenciar o acesso e as permissões a esses aplicativos.
+
+### **Passo 2: Gerenciar Acesso e Permissões**
+
+1. **Configurar Funções e Permissões**
+   - Vá para “Funções” e atribua funções a usuários ou grupos para controlar o acesso aos recursos do Azure.
+
+2. **Implementar Multi-Factor Authentication (MFA)**
+   - Acesse “Segurança” e selecione “Autenticação Multifator” para configurar MFA para aumentar a segurança.
+
+3. **Configurar Identity Protection**
+   - Em “Segurança”, selecione “Proteção de Identidade” para configurar políticas de proteção contra riscos e sinais de comprometimento.
+
+### **Passo 3: Monitorar e Auditar**
+
+1. **Revisar Logs de Atividades**
+   - Vá para “Registros de Auditoria” para revisar logs de atividades e alterações feitas em sua configuração de identidade.
+
+2. **Configurar Alertas**
+   - Em “Segurança”, selecione “Alertas” para configurar notificações sobre atividades suspeitas ou eventos críticos.
+
+## **Gerenciamento de Recursos com Microsoft Defender for Cloud**
+
+### **Passo 1: Configurar Microsoft Defender for Cloud**
+
+1. **Acessar o Portal Microsoft Defender for Cloud**
+   - No portal do Azure, clique em “Microsoft Defender for Cloud” no menu à esquerda.
+
+2. **Habilitar Microsoft Defender para suas Assinaturas**
+   - Vá para “Configurações de Segurança” e selecione as assinaturas que você deseja proteger.
+   - Clique em “Habilitar” para ativar o Microsoft Defender para suas assinaturas e recursos.
+
+### **Passo 2: Configurar Políticas de Segurança**
+
+1. **Definir Políticas de Segurança**
+   - Vá para “Políticas de Segurança” e configure políticas específicas para seus recursos, como regras de conformidade e controles de segurança.
+
+2. **Configurar Registros e Análises**
+   - Acesse “Análise de Segurança” para configurar e revisar análises de segurança e recomendações.
+
+### **Passo 3: Monitorar e Responder a Alertas**
+
+1. **Visualizar Alertas de Segurança**
+   - Vá para “Alertas” para visualizar e gerenciar alertas de segurança gerados pelo Defender for Cloud.
+
+2. **Configurar Regras de Resposta a Incidentes**
+   - Acesse “Incidentes e Resposta” para configurar e automatizar respostas a incidentes e ameaças detectadas.
+
+### **Passo 4: Implementar Recomendacões e Melhorias**
+
+1. **Revisar Recomendações**
+   - Em “Segurança” e “Recomendações”, revise as sugestões do Defender for Cloud para melhorar a segurança e a conformidade.
+
+2. **Aplicar Correções**
+   - Siga as recomendações e aplique as correções necessárias para fortalecer a segurança dos seus recursos.
+
+### **Passo 5: Realizar Avaliações Contínuas**
+
+1. **Realizar Avaliações de Conformidade**
+   - Vá para “Avaliações de Conformidade” para verificar a conformidade com as normas e regulamentações de segurança.
+
+2. **Monitorar e Ajustar**
+   - Continuamente monitore e ajuste suas configurações de segurança conforme necessário para lidar com novas ameaças e mudanças no ambiente de TI.
+
+### **Passo 6: Utilizar Ferramentas e Integrações**
+
+1. **Integrar com Outras Ferramentas**
+   - Utilize integrações com outras ferramentas de segurança e gerenciamento, como SIEMs (Security Information and Event Management), para uma visão mais abrangente da segurança.
+
+2. **Explorar Recursos Adicionais**
+   - Explore recursos adicionais oferecidos pelo Defender for Cloud, como proteção avançada contra ameaças e análises de segurança específicas.
